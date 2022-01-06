@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    position: relative;
+    width: 300%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/BeFunky-photo.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main .content{
+    max-width: 8000px;
+    align-items: center;
+}
+
+.main .content h2{
+    color: #fff;
+    font-size: 7em;
+    font-weight: 500;
+    align-items: center;
+}
+
+header{
+    z-index: 999;
+    position: relative;
+    background: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+
+
+header .brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+    
+header .navigation{
+    position: relative;
+}
+
+header .navigation a{
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 10px;
+    margin: 20px;
+}
+
+   
+body{
+    min-height: 110vh;
+}
+    
+.section-title{
+    position: relative;
+    font-size: 3.2em;
+    left: 45%;
+    border: 2px solid gray;
+    margin: 10px;
+}
+
+.center {
+    display: block;
+  margin-left: 16px;
+  margin-right: auto;
+  width: 20%;
+}
